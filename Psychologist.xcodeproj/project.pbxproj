@@ -14,6 +14,8 @@
 		6B1F312A1CFE70D40072EA6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1F31281CFE70D40072EA6B /* LaunchScreen.storyboard */; };
 		6B1F31331CFE71510072EA6B /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F31311CFE71510072EA6B /* FaceView.swift */; };
 		6B1F31341CFE71510072EA6B /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F31321CFE71510072EA6B /* HappinessViewController.swift */; };
+		6B1F31361CFE80940072EA6B /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F31351CFE80940072EA6B /* TextViewController.swift */; };
+		6B1F31381CFE85D30072EA6B /* DiagnosedHappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F31371CFE85D30072EA6B /* DiagnosedHappinessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		6B1F312B1CFE70D40072EA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B1F31311CFE71510072EA6B /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		6B1F31321CFE71510072EA6B /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+		6B1F31351CFE80940072EA6B /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		6B1F31371CFE85D30072EA6B /* DiagnosedHappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosedHappinessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				6B1F311F1CFE70D40072EA6B /* AppDelegate.swift */,
+				6B1F31351CFE80940072EA6B /* TextViewController.swift */,
+				6B1F31371CFE85D30072EA6B /* DiagnosedHappinessViewController.swift */,
 				6B1F31211CFE70D40072EA6B /* PsychologistViewController.swift */,
 				6B1F31311CFE71510072EA6B /* FaceView.swift */,
 				6B1F31321CFE71510072EA6B /* HappinessViewController.swift */,
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1F31361CFE80940072EA6B /* TextViewController.swift in Sources */,
 				6B1F31221CFE70D40072EA6B /* PsychologistViewController.swift in Sources */,
 				6B1F31201CFE70D40072EA6B /* AppDelegate.swift in Sources */,
+				6B1F31381CFE85D30072EA6B /* DiagnosedHappinessViewController.swift in Sources */,
 				6B1F31341CFE71510072EA6B /* HappinessViewController.swift in Sources */,
 				6B1F31331CFE71510072EA6B /* FaceView.swift in Sources */,
 			);
