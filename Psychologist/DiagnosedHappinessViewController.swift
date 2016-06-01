@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class DiagnosedHappinessViewController: HappinessViewController
+class DiagnosedHappinessViewController: HappinessViewController, UIPopoverPresentationControllerDelegate
 {
     override var happiness: Int {
         didSet {
@@ -34,10 +34,17 @@ class DiagnosedHappinessViewController: HappinessViewController
             switch identifier {
             case History.SegueIdentifier:
                 if let dhvc = segue.destinationViewController as? TextViewController {
+                    if let ppc = dhvc.popoverPresentationController {
+                        ppc.delegate = self
+                    }
                     dhvc.text =  "\(diagnosticHistory)"
                 }
             default: break
             }
         }
+    }
+    
+    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
+        return UIModalPresentationStyle.None
     }
 }

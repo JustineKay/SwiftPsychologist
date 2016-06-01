@@ -22,4 +22,15 @@ class TextViewController: UIViewController
             diagnosticHistoryTextView?.text = text
         }
     }
+    
+    override var preferredContentSize: CGSize {
+        get {
+            if diagnosticHistoryTextView != nil && presentingViewController != nil {
+                return diagnosticHistoryTextView.sizeThatFits(presentingViewController!.view.bounds.size)
+            } else {
+                return super.preferredContentSize
+            }
+        }
+        set { super.preferredContentSize = newValue }
+    }
 }
