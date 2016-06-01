@@ -28,16 +28,25 @@
                                 <rect key="frame" x="229" y="278" width="142" height="45"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                 <state key="normal" title="Dancing Tree"/>
+                                <connections>
+                                    <segue destination="duJ-ue-RCc" kind="showDetail" identifier="showHappyFace" id="hAF-i0-kwO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbx-5d-WUC">
                                 <rect key="frame" x="232" y="225" width="136" height="45"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                 <state key="normal" title="Golden Bear"/>
+                                <connections>
+                                    <segue destination="duJ-ue-RCc" kind="showDetail" identifier="showSadFace" id="Yjm-m4-dha"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPK-Vu-grT">
                                 <rect key="frame" x="200" y="331" width="201" height="45"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                 <state key="normal" title="Endless Corn Field"/>
+                                <connections>
+                                    <segue destination="duJ-ue-RCc" kind="showDetail" identifier="showMehFace" id="8ec-Fv-Tnz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -96,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0v7-XK-jaC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710" y="797"/>
+            <point key="canvasLocation" x="1099" y="941"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="ZIN-cP-NdP">
@@ -130,4 +139,7 @@
             <point key="canvasLocation" x="710" y="43"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="8ec-Fv-Tnz"/>
+    </inferredMetricsTieBreakers>
 </document>
